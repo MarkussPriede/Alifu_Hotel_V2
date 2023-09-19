@@ -1,0 +1,234 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+nav {
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  margin-left: 2rem;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li a {
+  font-weight: 500;
+}
+
+.loginregisterbutton {
+  background-color: #0071c5;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  transition: background-color 0.3s ease;
+}
+
+.loginregisterbutton:hover {
+  background-color: #004e8c;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 70vh;
+  }
+}
+
+.hero {
+  background-image: url(/Alifu-Hotel/img/img2edit.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+}
+
+.hero h1 {
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero p {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.button {
+  background-color: #0071c5;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #004e8c;
+}
+
+main {
+  margin-top: 40vh;
+  padding: 2rem;
+  background-color: #fff;
+  color: #333;
+  padding-top: 10rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.room-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.room {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: center;
+}
+
+.room .button {
+  margin-top: 1.5rem;
+}
+
+.room img {
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.room h3 {
+  font-size: 1.5rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.room p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.amenity-list {
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.amenity {
+  text-align: center;
+}
+
+.amenity img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.amenity h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.amenity p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.review-list {
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.review {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: center;
+}
+
+.review img {
+  border-radius: 50%;
+  max-width: 40%;
+  height: auto;
+}
+
+.review h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.review p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0.5rem;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #0071c5;
+  text-decoration: underline;
+}
